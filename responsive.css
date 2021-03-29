@@ -1,0 +1,91 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .galeri {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+    .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-left h3{
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+  .card{
+        flex: 100%;
+        max-width: 50%;
+    }
+}
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .galeri {
+    width: 100%;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  
+  .menu-icon  {
+    display:block !important;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .lesson {
+    width: 100%;
+  }
+  hr{
+    text-align: center;
+    width: 100%;
+  }
+
+  .card{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
